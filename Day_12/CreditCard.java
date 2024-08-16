@@ -1,5 +1,6 @@
 
 package Day_12;
+import Day_11.Single.*;
 
 /**
  * CreditCard
@@ -12,7 +13,7 @@ interface FixCreditLimit {
     
 }
 
-class CreditCard implements FixCreditLimit{
+class CreditCard extends BookPrice implements FixCreditLimit {
 
 
     void creditcard_info(){
@@ -25,10 +26,10 @@ class CreditCard implements FixCreditLimit{
     public void creditlimit20x(){
 
     }
+   
     public void creditlimit30x(){
 
     }
-
 
     
 

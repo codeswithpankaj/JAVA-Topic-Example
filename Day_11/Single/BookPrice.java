@@ -5,7 +5,7 @@ package Day_11.Single;
 /**
  * BookPrice
  */
-public class BookPrice extends Books {
+public class BookPrice extends Thread{
 
     int Book_price;
     int Discount;
